@@ -1,0 +1,422 @@
+
+/*------------------------------
+  My CV page styling
+--------------------------------*/
+
+/*--------------------------------
+Top Area/Body/General elements
+----------------------------------*/
+#mycv-body {
+    margin: 0;
+    padding: 0;
+    background-color: "";
+}
+#mycv-main-header-h1 {
+    font-size: 20px;
+    margin-inline: 10px;
+    display: inline-block;
+    color: rgb(15, 14, 95);
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    
+}
+
+.mycv-block{
+    background: url(../images/landing-img.jpg);
+    background-size: cover;
+    margin-top: 2%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 890px;
+}
+.myCV-langing-text h2{
+  color: #fff;
+  font-size: 54px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.5;
+  position: relative;
+}
+.myCV-langing-text p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 100px 0 70px;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+.myCV-langing-text h2 span {
+  color: rgb(15, 14, 95);
+}
+
+.mycv-block:before {
+    position: absolute;
+    background-position: center center;
+    background-repeat: no-repeat;
+    content: " ";
+    margin-top: 0%;
+    left: 0;
+    background: rgba(31,44,108,.65);
+    background-size: cover;
+    width: 100%;
+    height: 890px;
+}
+
+p {
+  margin: 0;
+  line-height: 1.8;
+  color: #43485c;
+  font-size: 14px;
+  font-family: Poppins,sans-serif
+}
+
+img {
+  border: none;
+  max-width: 100%;
+  height: auto
+}
+
+ul {
+  padding: 0;
+  margin: 0 auto;
+  list-style: none
+}
+
+ul li {
+  list-style: none;
+}
+
+
+/*----------------------
+ABOUT ME Section
+------------------------*/
+.about {
+  padding: 40px 0 50px
+}
+
+.about-content {
+  padding-top: 60px
+}
+
+.single-about-txt h3 {
+  font-size: 18px;
+  color: #3c4258;
+  text-transform: initial;
+  line-height: 1.8
+}
+
+.single-about-txt p {
+  font-size: 16px;
+  color: #999fb3;
+  padding: 35px 0 43px;
+  border-bottom: 1px solid #999fb3
+}
+
+.single-about-add-info {
+  margin: 35px 0
+}
+
+.single-about-add-info h3 {
+  color: #636a82;
+  font-size: 20px;
+  text-transform: capitalize
+}
+
+.single-about-add-info p {
+  font-weight: 300;
+  border: 0;
+  padding: 0;
+  margin-top: 3px
+}
+
+.single-about-img {
+  position: relative;
+  box-shadow: 0 5px 20px rgba(14,25,80,.3)
+}
+
+.single-about-img {
+  max-width:fit-content;
+  height:fit-content
+  
+}
+
+.about-list-icon {
+  display:flex;
+  justify-content: left;
+  align-items:first baseline;
+  bottom: 0;
+  left: 0%;
+  width: 100%;
+  height: 75px;
+  background: none;
+ 
+}
+
+#social-icons {
+  margin-left: -40%;
+}
+
+#about-list-icon-h3{
+  color: #636a82;
+  font-size: 16px;
+  text-transform: capitalize
+}
+
+.about-list-icon ul {
+  display: flex
+}
+
+.about-list-icon ul li  {
+  padding-right: 10px;
+  cursor: pointer;
+  color: #fff
+}
+
+.about-list-icon ul li {
+  cursor: pointer;
+  color: #fff;
+  display: inline-block;
+  margin-left: 20px;
+  border-radius: 8px;
+  width: 35px;
+  height: 35px;
+  line-height: 25px;
+  text-align: left
+}
+
+.about-list-icon ul li  {
+  margin-left: 55px;
+}
+/*------------------------------
+ABOUT ME end
+-------------------------------*/
+
+/*-------------------------------
+Eductation Section
+---------------------------------*/
+
+.education {
+  background: #f9fbfd;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 890px; 
+}
+
+.education-horizontal-timeline {
+  padding: 70px 0
+}
+
+.education-horizontal-timeline .col-sm-4 {
+  padding: 0 2px
+}
+
+.single-horizontal-timeline .experience-time h3 {
+  text-transform: capitalize
+}
+
+.single-horizontal-timeline .experience-time h3 span {
+  text-transform: lowercase
+}
+
+.single-horizontal-timeline .timeline-content h5 {
+  margin: 15px 0
+}
+
+.single-horizontal-timeline p {
+  color: #999fb3;
+  max-width: 335px
+}
+
+.timeline-horizontal-border {
+  display: flex;
+  align-items: center;
+  padding: 26px 0 30px;
+  
+}
+
+span.single-timeline-horizontal {
+  display: inline-block;
+  background: #b2c1ce;
+  height: 1px;
+  width: 380px
+}
+
+span.single-timeline-horizontal.spacial-horizontal-line {
+  width: 88px
+}
+
+/*----------------------
+Eductation end
+-----------------------*/
+
+/*----------------------
+Skills Section
+------------------------*/
+
+.skill-content {
+  padding: 50px 0 80px;
+  height:max-content;
+}
+
+.single-skill-content {
+  padding-top: 1px;
+}
+
+.section-heading h2 {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #e5ebf2
+}
+
+.single-skill-content{
+  margin: 50px;
+  margin-left: auto;
+}
+.single-progress-txt {
+  display: flex;
+}
+
+.single-progress-txt h3 {
+  width: 10%;
+  color: #1f2c6c;
+  position: relative;
+  top: -15px;
+  margin-bottom: 10px;
+  left: 20px;
+  
+}
+
+#skills-description-text{
+ font-size: 12px;
+}
+
+.barWrapper {
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.progress {
+  border-radius: 3px;
+  overflow:visible;
+  background: #e6ecf3;
+  height: 8px;
+  margin-top: 10px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+#progress-bar1{
+  transition: width 1s ease-in-out;
+}
+
+#progress-bar2{
+  transition: width 1s ease-in-out;
+}
+
+#progress-bar3{
+  transition: width 1s ease-in-out;
+}
+
+#progress-bar4{
+  transition: width 1s ease-in-out;
+}
+
+#progress-bar5{
+  transition: width 1s ease-in-out;
+}
+
+#progress-bar6{
+  transition: width 1s ease-in-out;
+}
+
+#progress-bar7{
+  transition: width 1s ease-in-out;
+}
+
+#progress-bar8{
+  transition: width 1s ease-in-out;
+}
+
+/*---------------------------
+Skills end
+----------------------------*/
+
+/*-----------------------------
+Experience Section
+-------------------------------*/
+
+.experience-header{
+  background-color: rgb(133, 131, 131);
+  padding: 30px;
+  text-align: center;
+}
+.experience {
+  padding: 50px 0 50px;
+  border-top: 1px solid #e5ebf2;
+  background-color: #fafafa;
+  height: max-content;
+}
+
+.experience-content {
+margin-top: auto;
+
+}
+
+.single-timeline-box {
+  margin-bottom: 85px;
+  margin: 15px;
+}
+
+.experience-time {
+  position: relative
+}
+
+.experience-time h2 {
+  font-size: 24px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.experience-time h3 {
+  font-size: 14px;
+  font-weight: 300;
+  color: #a8a9ad;
+  margin-top: 14px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.main-timeline {
+  position: relative;
+}
+
+.bullet-item {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.bullet-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 30px;
+  width: 10px;
+  height: 10px;
+  background-color: #1f2c6c;
+  border-radius: 50%;
+}
+
+#experience-text-summary{
+  text-align: left;
+  color: #6a708e;
+  font-style: italic;
+}
+/*--------------------------
+Experience end
+----------------------------*/
