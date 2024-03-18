@@ -26,6 +26,11 @@ This is a html webpage file and does not require a formal installation process. 
 5. Now you can open the index.html file with any browser like Edge or Chrome.
 
 ![Alt text](/MyCV-page-at-work/LandingImg.JPG)
+![Alt text](MyCV-page-at-work/AboutMe.JPG)
+![Alt text](MyCV-page-at-work/Education.JPG)
+![Alt text](MyCV-page-at-work/Skills.JPG)
+![Alt text](MyCV-page-at-work/Experience.JPG)
+
 
 
 
