@@ -25,6 +25,8 @@ This is a html webpage file and does not require a formal installation process. 
 4. Note that the index.html file, images folder and styling folder should all be on the same level.
 5. Now you can open the index.html file with any browser like Edge or Chrome.
 
+![Alt text]()
+
 
 
   
